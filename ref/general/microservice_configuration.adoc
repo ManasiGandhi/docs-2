@@ -13,6 +13,10 @@
 
 = Microservice configuration
 
+Externalizing configuration enables a service to run in multiple environments without modification. Microservices move in different environments. Externalizing configuration from code is important. Without this separation, you would need to recompile the application whenever the configuration values change. If you have many instances of the same service running, updating the configurations for all of them will be difficult and time-consuming.
+
+Modern development shops run their microservices apps in different environments like dev, test, and production. Each requires specific values that must be changedbased on the deployment environment, Updating them individually would be a pain. Externalizing the configuration values supports a reliable, predictable DevOps environment. The MicroProfile Config feature allows you to conveniently change these values without modifying your application code.
+
 MicroProfile Config is an API that externalizes the configuration from microservices, thus keeping it separate from the source code. Microservices consist of multiple services, running on multiple servers, and can make configuration difficult, especially in a production environment. With Microprofile Config, external configuration can be injected into services in the containers without the need for repackaging them. 
 
 Applications can use MicroProfile Config as a single API that can retrieve configuration information from different sources.
