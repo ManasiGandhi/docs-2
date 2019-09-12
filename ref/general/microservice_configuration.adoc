@@ -46,7 +46,7 @@ MP Config can also be used in configuration of channel attributes (MP Reactive M
 
 MP Config can help in overriding values in fault tolerance (MP FT). For example, it can set the value of an annotation like the maximum number of retries for the @Retry annotation so that you can easily change the value if the tolerance is found to be too low or too high. 
 
-===See aslo
+=== See aslo
 
 - https://openliberty.io/guides/microprofile-config-intro.html
 - https://openliberty.io/guides/microprofile-config-intro.html  
